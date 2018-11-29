@@ -1,5 +1,5 @@
 {
-    "name": "hoavq/gmo_bank_transfer_package",
+    "name": "hoavq/gmo-pg-bank-transfer",
     "description": "GMO Payment Geteway - Bank transfer",
     "authors": [
         {
