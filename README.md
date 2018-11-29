@@ -59,4 +59,4 @@ $result = \GMO::depositSearch([
 ]);
 ```
 
-Các hàm `accountSearch`, `depositSearch` là các key trong mảng `config.urls` (`config('gmo.urls')`
+The `accountSearch`, `depositSearch` functions are keys in the  `config.urls` array (`config('gmo.urls'`)
