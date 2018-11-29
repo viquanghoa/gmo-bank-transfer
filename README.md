@@ -61,4 +61,4 @@ $result = \GMO::depositSearch([
 ]);
 ```
 
-The `accountSearch`, `depositSearch` functions are keys in the  `config.urls` array (`config('gmo.urls'`)
+The `accountSearch`, `depositSearch` functions are keys in the  `gmo.urls` array (`config('gmo.urls'`).
