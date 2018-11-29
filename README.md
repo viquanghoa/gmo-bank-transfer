@@ -54,19 +54,9 @@ return [
 $result = \GMO::accountSearch([
     'Bank_ID' => '99992',
 ]);
-// or 
-$result = \GMO::AccountSearch([
-    'Bank_ID' => '99992',
-]);
-```
-...
-```php
 $result = \GMO::depositSearch([
     'Deposit_ID' => 'ABC8888',
 ]);
-// or
-
-$result = \GMO::DepositSearch([
-    'Deposit_ID' => 'ABC8888',
-]);
 ```
+
+Các hàm `accountSearch`, `depositSearch` là các key trong mảng `config.urls` (`config('gmo.urls')`
