@@ -1,0 +1,11 @@
+{
+    "name": "hoavq/gmo_bank_transfer_package",
+    "description": "GMO Payment Geteway - Bank transfer",
+    "authors": [
+        {
+            "name": "HoaVQ",
+            "email": "vyquanghoa@gmail.com"
+        }
+    ],
+    "require": {}
+}
