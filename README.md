@@ -38,8 +38,8 @@ File `config/gmo.php` sẽ nhìn thấy như này:
 ```php
 return [
     'host' => 'https://test-remittance.gmopg.jp',
-    'shop_id' => 'rshop00000149',
-    'shop_password' => 'y7DgF0N3',
+    'shop_id' => 'rshopxxxxxxxx',
+    'shop_password' => 'xxxxxxxx',
     'urls' => [
         'AccountRegistration' => '/api/AccountRegistration.idPass',
         'AccountSearch' => '/api/AccountSearch.idPass',
