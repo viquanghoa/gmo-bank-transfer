@@ -39,7 +39,8 @@ class GmoServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/gmo.php' => config_path('gmo.php'),
+            __DIR__ . '/config/gmo.php' => config_path('gmo.php'),
+            __DIR__ . '/lang/gmo.php' => resource_path('lang/'.\App::getLocale().'/gmo.php'),
         ]);
     }
 
@@ -55,7 +56,6 @@ class GmoServiceProvider extends ServiceProvider
             return new GmoFunctions();
         });
     }
-
 
 
     /**

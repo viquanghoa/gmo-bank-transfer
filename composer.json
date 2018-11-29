@@ -1,18 +1,19 @@
 {
-    "name": "hoavq/gmo-pg-bank-transfer",
-    "description": "GMO Payment Geteway - Bank transfer",
-    "authors": [
-        {
-            "name": "HoaVQ",
-            "email": "vyquanghoa@gmail.com"
-        }
-    ],
-
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "HoaVQ\\GmoPG\\": "src/"
-        }
-    },
-    "minimum-stability": "beta"
+  "name": "hoavq/gmo-pg-bank-transfer",
+  "description": "GMO Payment Geteway - Bank transfer",
+  "authors": [
+    {
+      "name": "HoaVQ",
+      "email": "vyquanghoa@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HoaVQ\\GmoPG\\": "src/"
+    }
+  },
+  "minimum-stability": "beta"
 }
