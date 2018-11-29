@@ -1,6 +1,6 @@
 <?php
 
-namespace Collective\Html;
+namespace HoaVQ\GmoPG;
 
 use Illuminate\Support\Facades\Facade;
 

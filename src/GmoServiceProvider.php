@@ -1,13 +1,13 @@
 <?php
 
-namespace Collective\Html;
+namespace HoaVQ\GmoPG;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Illuminate\View\Compilers\BladeCompiler;
 
-class HtmlServiceProvider extends ServiceProvider
+class GmoServiceProvider extends ServiceProvider
 {
     /**
      * Supported Blade Directives
