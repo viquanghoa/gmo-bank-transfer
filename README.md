@@ -33,8 +33,10 @@ and
 ```shell
 resource/{lang}/gmo.php
 ```
-Next, enter `shop_id` and `shop_password` in the `config/gmo.php` file:
-File `config/gmo.php` sẽ nhìn thấy như này:
+Next, enter `shop_id` and `shop_password` in the `config/gmo.php` file.
+
+The `config/gmo.php` file looks like this:
+
 ```php
 return [
     'host' => 'https://test-remittance.gmopg.jp',
