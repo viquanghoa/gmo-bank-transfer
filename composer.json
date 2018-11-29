@@ -7,5 +7,7 @@
             "email": "vyquanghoa@gmail.com"
         }
     ],
-    "require": {}
+
+    "require": {},
+    "minimum-stability": "beta"
 }
