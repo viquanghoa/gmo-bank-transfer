@@ -49,7 +49,7 @@ class GmoServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    protected function registerHtmlBuilder()
+    protected function registerGmoFunctions()
     {
         $this->app->singleton('gmo', function ($app) {
             return new GmoFunctions();
