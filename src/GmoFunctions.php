@@ -50,7 +50,7 @@ class GmoFunctions
             unset($body);
 
             if (isset($bodyResponse['ErrCode'])) {
-                $bodyResponse['message'] = $this->getErrorMessagesFromCode(explode('|', $bodyResponse['ErrInfo']));
+                $bodyResponse['Message'] = $this->getErrorMessagesFromCode(explode('|', $bodyResponse['ErrInfo']));
             }
 
             return $bodyResponse;
