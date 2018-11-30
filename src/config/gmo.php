@@ -8,7 +8,7 @@
 return [
     'host' => 'https://test-remittance.gmopg.jp',
     'shop_id' => '',
-    'password' => '',
+    'shop_password' => '',
     'urls' => [
         'AccountRegistration' => '/api/AccountRegistration.idPass',
         'AccountSearch' => '/api/AccountSearch.idPass',
