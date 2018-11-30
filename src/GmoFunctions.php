@@ -39,17 +39,21 @@ class GmoFunctions
             $url = $this->buildUrl($method);
             $params = array_merge($this->attributes, $params);
 
-            $res = $this->client->request('POST', $url, [
+            $response = $this->client->request('POST', $url, [
                 'form_params' => $params
             ]);
 
-            parse_str($res->getBody(), $response);
+            $body = mb_convert_encoding($response->getBody(), 'UTF-8', 'Windows-31J');
 
-            if (isset($response['ErrCode'])) {
-                $response['message'] = $this->getErrorMessagesFromCode(explode('|', $response['ErrInfo']));
+            parse_str($body, $bodyResponse);
+
+            unset($body);
+
+            if (isset($bodyResponse['ErrCode'])) {
+                $bodyResponse['message'] = $this->getErrorMessagesFromCode(explode('|', $bodyResponse['ErrInfo']));
             }
 
-            return $response;
+            return $bodyResponse;
 
         } catch (\Exception $exception) {
             throw $exception;
